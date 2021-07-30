@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+	 <parameter name="URL" value="test.com"/>
+	  <parameter name="APIKey" value="123456asdf"/>
+  <test name="demoParameterization">
+	    <classes>
+	      <class name="TestNGExamples.TestNGDataProviderAnnotation1"/>
+	    </classes>
+  </test>
+  <test name="CarLoan">
+  <parameter name="URL" value="CarLoan.com"/>
+    <classes>
+      <class name="TestNGExamples.CarLoan"/>
+    </classes>
+  </test>
+  <test name="HomeLoan">
+  <parameter name="URL" value="HomeLoan.com"/>
+    <classes>
+      <class name="TestNGExamples.HomeLoan"/>
+    </classes>
+  </test>
+</suite> <!-- SampleSuite -->

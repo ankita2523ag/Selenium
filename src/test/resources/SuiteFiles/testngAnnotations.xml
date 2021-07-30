@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+
+  <test name="Car Loan">
+    <classes>
+      <class name="TestNGExamples.TestNGAnnotations"/>
+    </classes>
+  </test>
+  <test name="Home Loan">
+    <classes>
+      <class name="TestNGExamples.HomeLoan">
+	      <methods>
+	      		<include name = "LoginAPIHomeLoan"/>
+	      	</methods>
+	  </class>
+    </classes>
+  </test>
+</suite> <!-- SampleSuite -->

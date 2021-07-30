@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34" started-at="2021-04-17T21:48:17Z" finished-at="2021-04-17T21:48:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34" started-at="2021-04-17T21:48:17Z" finished-at="2021-04-17T21:48:17Z">
+      <class name="TestNGExamples.TestNGDataProviderAnnotation2">
+        <test-method status="PASS" signature="getUser(java.lang.String, java.lang.String)[pri:0, instance:TestNGExamples.TestNGDataProviderAnnotation2@65e2dbf3]" name="getUser" duration-ms="6" started-at="2021-04-17T21:48:17Z" data-provider="getData" finished-at="2021-04-17T21:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ankita93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="getUser(java.lang.String, java.lang.String)[pri:0, instance:TestNGExamples.TestNGDataProviderAnnotation2@65e2dbf3]" name="getUser" duration-ms="1" started-at="2021-04-17T21:48:17Z" data-provider="getData" finished-at="2021-04-17T21:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anku90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="getUser(java.lang.String, java.lang.String)[pri:0, instance:TestNGExamples.TestNGDataProviderAnnotation2@65e2dbf3]" name="getUser" duration-ms="1" started-at="2021-04-17T21:48:17Z" data-provider="getData" finished-at="2021-04-17T21:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niraj90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- TestNGExamples.TestNGDataProviderAnnotation2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
