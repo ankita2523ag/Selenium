@@ -1,7 +1,6 @@
 package Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class JavaBasics {
@@ -12,16 +11,16 @@ public class JavaBasics {
 		/////////////////////////////////Variables
 		
 		//Boolean
-		Boolean varbool = new Boolean();
+		//Boolean varbool = new Boolean();
 		//Integer
 		int a = 2;
 		int b = 3;
 		int sumInt = a+b;
 		System.out.println("sumInt=" + sumInt);
 		//Long
-		LongInteger varlongInt = 22222222222;
+		//int i = 22;
 		//Float
-		Float varfloat = 1.2;
+		// varfloat = 1.2;
 		//Double
 		double aa = 1.2;
 		double bb = 1.3;
@@ -71,10 +70,13 @@ public class JavaBasics {
 		///////////////////////////////////Enums
 		
 		///////////////////////////////////////For Loop
-		for(int i=0;i<=5;i++)
+		/*
+		for(i=0;i<=5;i++)
 		{
 			System.out.println("in for loop");
 		}
+		*/
+
 		//Enhanced for loop
 
 		

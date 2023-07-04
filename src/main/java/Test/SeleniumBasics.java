@@ -9,7 +9,8 @@ public class SeleniumBasics {
 		// TODO Auto-generated method stub
 	
 		//Create Driver Object
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_88.exe");
+		String chromedriverpath ="/Users/ankiagra/IdeaProjects/dependencies/chromedriver";
+		System.setProperty("webdriver.chrome.driver", chromedriverpath);
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		driver.getTitle();
@@ -20,8 +21,8 @@ public class SeleniumBasics {
 		driver.navigate().back();
 		driver.navigate().forward();
 		driver.get("https://www.selenium.dev/documentation/en/getting_started/");
-		driver.close();//close the last opened tab by selenium
-		driver.quit();//close all tabs opened by selenium
+		//driver.close();//close the last opened tab by selenium
+		//driver.quit();//close all tabs opened by selenium
 	}
 
 }

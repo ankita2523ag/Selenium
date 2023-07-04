@@ -6,7 +6,8 @@ public class TestJavaArrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		str.charAt(i).tot
+		//str.charAt(i).tot
+		//str.charAt(i).tot
 	}
 	
 	//takeIntArrayInputFromConsole

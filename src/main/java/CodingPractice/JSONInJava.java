@@ -1,9 +1,5 @@
 package CodingPractice;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.json.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

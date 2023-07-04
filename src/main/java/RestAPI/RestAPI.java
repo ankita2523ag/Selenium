@@ -1,14 +1,13 @@
 package RestAPI;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RestAPI {
 
